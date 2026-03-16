@@ -1,6 +1,6 @@
 import os
 import csv
-from sistema_estoque.Sistema.produto import Produto
+from sistema_estoque import Cliente, Produto, Venda
 
 ARQ_CLIENTES = "clientes.csv"
 ARQ_PRODUTOS = "produtos.csv"
@@ -62,6 +62,6 @@ def carregar_clientes(lista_clientes):
         reader = csv.reader(arquivo)
         for linha in reader:
             if len(linha) >= 4:
-                linha.inserir (Produto( linha[0], linha[1], int(linha[2]), float(linha[3]) ) ) #vai ler o id, nome, quantidade e preço do produto e inserir na lista de produtos
+                linha.inserir (Sistema.sistema_estoque.Produto( linha[0], linha[1], int(linha[2]), float(linha[3]) ) ) #vai ler o id, nome, quantidade e preço do produto e inserir na lista de produtos
 
        

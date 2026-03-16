@@ -1,8 +1,6 @@
-class Venda:
-
-    def __init__(self, id_venda, cliente, produto, quantidade, valor_total):
-        self.id = id_venda
-        self.cliente = cliente
-        self.produto = produto
-        self.quantidade = quantidade
-        self.valor_total = valor_total
+class Produto:
+    def __init__(self, id_produto, nome, quantidade, preco):
+        self.id = int(id_produto)
+        self.nome = nome
+        self.quantidade = int(quantidade)
+        self.preco = float(preco)
