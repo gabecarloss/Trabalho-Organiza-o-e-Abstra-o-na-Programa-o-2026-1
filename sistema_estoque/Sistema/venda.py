@@ -21,3 +21,5 @@ class Venda:
     def cancelar_venda(self):
         self.produto.atualizar_estoque(self.quantidade)
         self.valor_total = 0
+        #.
+        # Aqui você pode adicionar lógica para remover a venda da lista de vendas, se necessário.
