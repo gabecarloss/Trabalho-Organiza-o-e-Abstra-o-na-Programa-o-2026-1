@@ -7,7 +7,7 @@
 # Este projeto consiste em um sistema de controle de estoque desenvolvido em Python. O sistema permite o gerenciamento de clientes, produtos e vendas por meio de um menu interativo no terminal. Funciona a partir da prática de dados feitos em arquivos .csv para realizar o cadastro e controlar o estoque, além listas encadeadas, filas e pilhas para o funcionamento do projeto.
 
 
-# Após executar, será exibido um menu com opções:
+## Após executar, será exibido um menu com opções:
 
 # 1. Cadastrar Cliente
 # 2. Cadastrar Produto
