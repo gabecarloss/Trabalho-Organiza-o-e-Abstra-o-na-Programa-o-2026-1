@@ -1,5 +1,5 @@
 class Venda:
-    def init(self, id_venda, cliente, produto, quantidade, valor_total):
+    def __init__(self, id_venda, cliente, produto, quantidade, valor_total):
         self.id = int(id_venda)
         self.cliente = cliente
         self.produto = produto

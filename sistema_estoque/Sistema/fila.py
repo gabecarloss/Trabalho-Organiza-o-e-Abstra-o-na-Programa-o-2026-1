@@ -15,3 +15,6 @@ class fila:
         
         for venda in self.fila:
             print(vars(venda))
+
+    def enfileirar (self, venda):
+        self.fila.append(venda)
